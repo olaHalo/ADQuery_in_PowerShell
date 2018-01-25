@@ -1,0 +1,1 @@
+# ADQuery_in_PowerShell

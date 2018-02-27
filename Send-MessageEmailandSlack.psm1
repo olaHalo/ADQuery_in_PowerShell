@@ -1,7 +1,7 @@
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 Import-Module .\PSSlack
-$Uri = "https://hooks.slack.com/services/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"
-$SmtpServerVar = "transport.ci.charlotte.nc.us"
+$Uri = "REMOVED"
+$SmtpServerVar = "REMOVED"
 
 #Function that takes two arguments and posts them into slack
 
@@ -19,6 +19,6 @@ function Send-EMessage($emailSubject, $emailMessage)
 
       {
 
-      Send-MailMessage -To "Matthew <matthew.wedlow@ci.charlotte.nc.us>" -From "Scripty <support@mosaic451.com>" -Subject $emailSubject -SmtpServer transport.ci.charlotte.nc.us -Body $emailMessage
+      Send-MailMessage -To "REMOVED" -From "Scripty REMOVED" -Subject $emailSubject -SmtpServer REMOVED -Body $emailMessage
 
       }
